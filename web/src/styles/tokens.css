@@ -1,0 +1,57 @@
+:root {
+  --ob-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+
+  /* Accent — Apple link blue */
+  --ob-accent:                #0066CC;
+  --ob-accent-hover:          #0055AA;
+  --ob-accent-faint:          #EBF4FF;
+  --ob-accent-ring:           rgba(0, 102, 204, 0.2);
+  --ob-on-accent:             #ffffff;
+
+  /* Sidebar — Apple signature off-white */
+  --ob-sidebar-bg:            #F5F5F7;
+  --ob-sidebar-text:          #1D1D1F;
+  --ob-sidebar-hover-bg:      #E8E8ED;
+  --ob-sidebar-hover-txt:     #1D1D1F;
+  --ob-sidebar-active-bg:     #EBF4FF;
+  --ob-sidebar-active-txt:    #0066CC;
+  --ob-sidebar-active-border: #0066CC;
+  --ob-sidebar-label:         #86868B;
+  --ob-sidebar-width:         220px;
+
+  /* Top bar */
+  --ob-topbar-bg:             #FFFFFF;
+  --ob-topbar-height:         52px;
+  --ob-topbar-border:         #D2D2D7;
+
+  /* Surfaces */
+  --ob-bg:                    #FFFFFF;
+  --ob-surface:               #FFFFFF;
+  --ob-surface-hover:         #F5F5F7;
+  --ob-surface-raised:        #F5F5F7;
+  --ob-border:                #D2D2D7;
+  --ob-divider:               #E8E8ED;
+
+  /* Text */
+  --ob-text:                  #1D1D1F;
+  --ob-text-muted:            #6E6E73;
+  --ob-text-tertiary:         #86868B;
+
+  /* Status */
+  --ob-ok:                    #1A7F4E;
+  --ob-ok-bg:                 #D4F4E6;
+  --ob-fault:                 #C05000;
+  --ob-fault-bg:              #FFF0E0;
+  --ob-fault-border:          #F5C6A0;
+  --ob-assigned:              #0055AA;
+  --ob-assigned-bg:           #EBF4FF;
+
+  /* Shape */
+  --ob-radius-sm:             6px;
+  --ob-radius:                10px;
+  --ob-radius-lg:             14px;
+  --ob-radius-pill:           100px;
+
+  /* Shadow */
+  --ob-shadow-card:           0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
